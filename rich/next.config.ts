@@ -1,6 +1,7 @@
 // next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   eslint: {
     // disable ESLint during production builds on CI so lint warnings/errors don't abort `next build`
     ignoreDuringBuilds: true,
