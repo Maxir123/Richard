@@ -1,0 +1,252 @@
+[
+  {
+    "id": 2183191,
+    "name": "Richview 4",
+    "description": "are u lost this is rich",
+    "product_code": "PROD_vs1vgh409ip4fdd",
+    "slug": "richview-4-opzdis",
+    "currency": "NGN",
+    "price": 5000000,
+    "quantity": 0,
+    "quantity_sold": 0,
+    "active": true,
+    "domain": "test",
+    "type": "service",
+    "in_stock": true,
+    "unlimited": true,
+    "metadata": {
+      "background_color": "#35301F"
+    },
+    "files": [
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.07_6ddca3ec.jpg",
+        "key": "products/jxf877gswp22z1eu0bnn.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/jxf877gswp22z1eu0bnn.jpg",
+        "type": "image"
+      },
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.07_2f576318.jpg",
+        "key": "products/4zdlgdz9gd6366niehcn.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/4zdlgdz9gd6366niehcn.jpg",
+        "type": "image"
+      }
+    ],
+    "success_message": null,
+    "redirect_url": null,
+    "split_code": null,
+    "notification_emails": null,
+    "minimum_orderable": 1,
+    "maximum_orderable": null,
+    "createdAt": "2025-10-12T00:57:53.000Z",
+    "updatedAt": "2025-10-12T00:58:13.000Z",
+    "digital_assets": [],
+    "variant_options": [],
+    "is_shippable": false,
+    "shipping_fields": {
+      "delivery_note": "disabled",
+      "shipping_fees": []
+    },
+    "integration": 1589296,
+    "low_stock_alert": 0
+  },
+  {
+    "id": 2183190,
+    "name": "Richview 3",
+    "description": "make more money ",
+    "product_code": "PROD_0g0sbwpc6eevu3c",
+    "slug": "richview-3-vnitiv",
+    "currency": "NGN",
+    "price": 4000000,
+    "quantity": 0,
+    "quantity_sold": 0,
+    "active": true,
+    "domain": "test",
+    "type": "service",
+    "in_stock": true,
+    "unlimited": true,
+    "metadata": {
+      "background_color": "#745D3C"
+    },
+    "files": [
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.06_57a2c5b3.jpg",
+        "key": "products/q1fmklphwgsmdr25yb0p.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/q1fmklphwgsmdr25yb0p.jpg",
+        "type": "image"
+      },
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.06_292c893d.jpg",
+        "key": "products/au0z01wk110uwyr97e2s.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/au0z01wk110uwyr97e2s.jpg",
+        "type": "image"
+      }
+    ],
+    "success_message": null,
+    "redirect_url": null,
+    "split_code": null,
+    "notification_emails": null,
+    "minimum_orderable": 1,
+    "maximum_orderable": null,
+    "createdAt": "2025-10-12T00:56:23.000Z",
+    "updatedAt": "2025-10-12T00:57:07.000Z",
+    "digital_assets": [],
+    "variant_options": [],
+    "is_shippable": false,
+    "shipping_fields": {
+      "delivery_note": "disabled",
+      "shipping_fees": []
+    },
+    "integration": 1589296,
+    "low_stock_alert": 0
+  },
+  {
+    "id": 2183189,
+    "name": "Richview 2",
+    "description": "mad mad mad",
+    "product_code": "PROD_xte6nvvr2qsvyqn",
+    "slug": "richview-2-yejsnv",
+    "currency": "NGN",
+    "price": 3500000,
+    "quantity": 0,
+    "quantity_sold": 0,
+    "active": true,
+    "domain": "test",
+    "type": "service",
+    "in_stock": true,
+    "unlimited": true,
+    "metadata": {
+      "background_color": "#836C44"
+    },
+    "files": [
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.06_0cfb2eb5.jpg",
+        "key": "products/alb69x0jn6bsmdnjr0uk.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/alb69x0jn6bsmdnjr0uk.jpg",
+        "type": "image"
+      },
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.06_0add51c1.jpg",
+        "key": "products/qg9hmgcg924rgh4ss65f.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/qg9hmgcg924rgh4ss65f.jpg",
+        "type": "image"
+      }
+    ],
+    "success_message": null,
+    "redirect_url": null,
+    "split_code": null,
+    "notification_emails": null,
+    "minimum_orderable": 1,
+    "maximum_orderable": null,
+    "createdAt": "2025-10-12T00:55:25.000Z",
+    "updatedAt": "2025-10-12T00:55:40.000Z",
+    "digital_assets": [],
+    "variant_options": [],
+    "is_shippable": false,
+    "shipping_fields": {
+      "delivery_note": "disabled",
+      "shipping_fees": []
+    },
+    "integration": 1589296,
+    "low_stock_alert": 0
+  },
+  {
+    "id": 2183188,
+    "name": "Richview 1",
+    "description": "best fashion for guys ",
+    "product_code": "PROD_dib3vtsqcmpbgc6",
+    "slug": "richview-1-yxkhjt",
+    "currency": "NGN",
+    "price": 3000000,
+    "quantity": 0,
+    "quantity_sold": 0,
+    "active": true,
+    "domain": "test",
+    "type": "service",
+    "in_stock": true,
+    "unlimited": true,
+    "metadata": {
+      "background_color": "#75603E"
+    },
+    "files": [
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.05_ecd830ed.jpg",
+        "key": "products/zx6s90ogizkwmcuxqxzu.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/zx6s90ogizkwmcuxqxzu.jpg",
+        "type": "image"
+      },
+      {
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.05_ce5e8dbf.jpg",
+        "key": "products/nsajx1hrxqdfcub2ba61.jpg",
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/nsajx1hrxqdfcub2ba61.jpg",
+        "type": "image"
+      }
+    ],
+    "success_message": null,
+    "redirect_url": null,
+    "split_code": null,
+    "notification_emails": null,
+    "minimum_orderable": 1,
+    "maximum_orderable": null,
+    "createdAt": "2025-10-12T00:54:07.000Z",
+    "updatedAt": "2025-10-12T00:54:29.000Z",
+    "digital_assets": [],
+    "variant_options": [],
+    "is_shippable": false,
+    "shipping_fields": {
+      "delivery_note": "disabled",
+      "shipping_fees": []
+    },
+    "integration": 1589296,
+    "low_stock_alert": 0
+  },
+  {
+    "id": 2183150,
+    "name": "Richview",
+    "description": "Cool t-shirt for fashion",
+    "product_code": "PROD_p8ge5vmmyygc1is",
+    "slug": "richview-csyprx",
+    "currency": "NGN",
+    "price": 2500000,
+    "quantity": 0,
+    "quantity_sold": 0,
+    "active": true,
+    "domain": "test",
+    "type": "good",
+    "in_stock": true,
+    "unlimited": true,
+    "metadata": {
+      "background_color": "#7C6945"
+    },
+    "files": [
+      {
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/ktmjv7kco1h7hx68hbx8.jpg",
+        "key": "products/ktmjv7kco1h7hx68hbx8.jpg",
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.07_330c325b.jpg",
+        "type": "image"
+      },
+      {
+        "path": "https://res.cloudinary.com/paystack/image/upload/public/files/products/0sbmks3e6mlb86q9dfv0.jpg",
+        "key": "products/0sbmks3e6mlb86q9dfv0.jpg",
+        "original_filename": "WhatsApp Image 2025-09-28 at 14.55.07_6ddca3ec.jpg",
+        "type": "image"
+      }
+    ],
+    "success_message": null,
+    "redirect_url": null,
+    "split_code": null,
+    "notification_emails": null,
+    "minimum_orderable": 1,
+    "maximum_orderable": null,
+    "createdAt": "2025-10-11T21:37:47.000Z",
+    "updatedAt": "2025-10-12T00:21:18.000Z",
+    "digital_assets": [],
+    "variant_options": [],
+    "is_shippable": true,
+    "shipping_fields": {
+      "delivery_note": "optional",
+      "shipping_fees": []
+    },
+    "integration": 1589296,
+    "low_stock_alert": 0
+  }
+]
