@@ -131,11 +131,11 @@ export default function AboutSection() {
               className="grid grid-cols-3 gap-6 pt-8 border-t border-zinc-800"
             >
               <div className="text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-white">500+</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white">50+</div>
                 <div className="text-sm text-gray-400 mt-1">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-white">50+</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white">10+</div>
                 <div className="text-sm text-gray-400 mt-1">Products</div>
               </div>
               <div className="text-center">

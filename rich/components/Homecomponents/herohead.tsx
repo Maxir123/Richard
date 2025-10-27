@@ -9,8 +9,8 @@ import { Zap } from "lucide-react";
 
 const BRAND = {
   name: "Richview",
-  tagline: "Futuristic Streetwear",
-  description: "Elevate your style with our exclusive collection of alternative jackets and premium denim. Limited drops, exceptional quality.",
+  tagline: "Swag Rendition",
+  description: "Elevate your style with our premium denim and alternative wears . Limited drops, exceptional quality.",
   season: "Autumn Collection 2024",
 } as const;
 
