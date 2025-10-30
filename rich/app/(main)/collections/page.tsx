@@ -280,7 +280,7 @@ export default function FashionCollection() {
   const categories = ["all", ...Array.from(new Set(products.map((p) => p.category).filter(Boolean)))] as string[];
 
   const fashionStats = [
-    { icon: Shirt, label: "Premium Brands", value: "10+" },
+    { icon: Shirt, label: "Premium Brands", value: "5+" },
     { icon: TrendingUp, label: "Happy Customers", value: "50+" },
     { icon: Zap, label: "Fast Delivery", value: "24h" },
   ];

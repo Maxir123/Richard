@@ -23,10 +23,9 @@ export default function AboutPage() {
   ];
 
   const achievements = [
-    { number: "1K+", label: "Pieces Sold Worldwide", icon: <Star className="h-6 w-6" /> },
-    { number: "5", label: "Countries Reached", icon: <Globe className="h-6 w-6" /> },
+    { number: "10+", label: "Pieces Sold Worldwide", icon: <Star className="h-6 w-6" /> },
+    { number: "3", label: "Countries Reached", icon: <Globe className="h-6 w-6" /> },
     { number: "98.7%", label: "Customer Satisfaction", icon: <Heart className="h-6 w-6" /> },
-    { number: "24", label: "Industry Awards", icon: <Award className="h-6 w-6" /> },
   ];
 
   const contactInfo = [

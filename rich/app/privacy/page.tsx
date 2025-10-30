@@ -64,9 +64,8 @@ export default function PrivacyPage() {
   ];
 
   const policyUpdates = [
-    { date: "2024-01-15", change: "Updated data retention policies" },
-    { date: "2023-11-01", change: "Enhanced cookie consent management" },
-    { date: "2023-08-20", change: "Added GDPR compliance measures" }
+    { date: "2025-01-15", change: "Updated data retention policies" },
+    { date: "2025-11-01", change: "Enhanced cookie consent management" },
   ];
 
   return (
@@ -345,10 +344,10 @@ export default function PrivacyPage() {
                 <div className="text-center">
                   <div className="text-2xl font-bold text-white mb-2">Email</div>
                   <a 
-                    href="mailto:privacy@richview.com" 
+                    href="mailto:richviewlimited@gmail.com" 
                     className="text-blue-300 hover:text-white transition-colors duration-300"
                   >
-                    privacy@richview.com
+                    richviewlimited@gmail.com
                   </a>
                 </div>
                 <div className="text-center">

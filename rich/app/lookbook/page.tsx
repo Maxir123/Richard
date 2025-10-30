@@ -7,17 +7,17 @@ export const metadata = {
 };
 
 export default function LookbookPage() {
-  // pass full public URLs (relative to /public)
+  // Add the proper path to your images
   const images = [
-    'Post1.jpg',
-    'Post2.jpg',
-    'Post3.jpg',
-    'Post4.jpg',
-    'Post5.jpg',
-    'Post6.jpg',
-    'Post7.jpg',
-    'Post8.jpg',
-    'Post9.jpg',
+    '/assets/lookbook/Post11.jpg',
+    '/assets/lookbook/Post12.jpg',
+    '/assets/lookbook/Post13.jpg',
+    '/assets/lookbook/Post14.jpg',
+    '/assets/lookbook/Post15.jpg',
+    '/assets/lookbook/Post16.jpg',
+    '/assets/lookbook/Post17.jpg',
+    '/assets/lookbook/Post18.jpg',
+    '/assets/lookbook/Post19.jpg',
   ];
 
   return <RichviewLookbook images={images} />;

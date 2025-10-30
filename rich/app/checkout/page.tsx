@@ -153,7 +153,7 @@ export default function CheckoutPage() {
       )}
 
       {/* Full Screen Iframe - Absolutely positioned */}
-      <div className="absolute inset-0 w-full h-full">
+      <div className="absolute inset-0 mt-3 w-full h-full">
         <iframe
           key={iframeKey}
           src={paystackUrl}
