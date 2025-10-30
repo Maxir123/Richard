@@ -8,10 +8,10 @@ import { Star, Award, Globe, Sparkles, Zap, Target, Heart, Mail, Phone, MapPin }
 
 export default function AboutPage() {
   const timeline = [
-    { year: "2021", title: "Vision Born", desc: "Late night sketches turned into a bold vision for streetwear revolution.", icon: "🎨" },
-    { year: "2022", title: "First Drop Explosion", desc: "Debut collection sold out in 72 hours, breaking all expectations.", icon: "🚀" },
-    { year: "2023", title: "Global Recognition", desc: "Featured in major fashion publications and stocked in premium boutiques worldwide.", icon: "🌍" },
-    { year: "2024", title: "Next Evolution", desc: "Expanding into sustainable materials and immersive digital experiences.", icon: "⚡" },
+   { year: "2022", title: "Vision Born", desc: "A spark of creativity ignited—late-night sketches evolved into the RichView brand vision.", icon: "🎨" },
+    { year: "2023", title: "Experiment & Expression", desc: "Explored styles, collaborations, and storytelling—gaining recognition in emerging fashion scenes.", icon: "🚀" },
+    { year: "2024", title: "Brand Evolution", desc: "Officially registered the brand and began developing production and distribution channels.", icon: "🌍" },
+    { year: "2025", title: "Brand Launch", desc: "Introducing collections built on innovation, sustainability, and elevated digital experiences.", icon: "⚡" },
   ];
 
   const values = [
@@ -22,16 +22,15 @@ export default function AboutPage() {
   ];
 
   const achievements = [
-    { number: "50K+", label: "Pieces Sold Worldwide", icon: <Star className="h-6 w-6" /> },
-    { number: "15", label: "Countries Reached", icon: <Globe className="h-6 w-6" /> },
+     { number: "1K+", label: "Pieces Sold Worldwide", icon: <Star className="h-6 w-6" /> },
+    { number: "5", label: "Countries Reached", icon: <Globe className="h-6 w-6" /> },
     { number: "98.7%", label: "Customer Satisfaction", icon: <Heart className="h-6 w-6" /> },
-    { number: "24", label: "Industry Awards", icon: <Award className="h-6 w-6" /> },
   ];
 
   const contactInfo = [
-    { icon: <Mail className="h-6 w-6" />, label: "Email", value: "hello@richview.com", link: "mailto:hello@richview.com" },
-    { icon: <Phone className="h-6 w-6" />, label: "Phone", value: "+234 1 632 5830", link: "tel:+23416325830" },
-    { icon: <MapPin className="h-6 w-6" />, label: "Headquarters", value: "Lagos, Nigeria", link: "https://maps.google.com/?q=Lagos,Nigeria" },
+     { icon: <Mail className="h-6 w-6" />, label: "Email", value: "richviewlimited@gmail.com", link: "mailto:richviewlimited@gmail.com" },
+    { icon: <Phone className="h-6 w-6" />, label: "Phone", value: "+234 816 448 4383", link: "tel:+2348164484383" },
+    { icon: <MapPin className="h-6 w-6" />, label: "Headquarters", value: "Abuja, Nigeria", link: "https://maps.google.com/?q=Abuja,Nigeria" },
   ];
 
   // Enhanced animation configuration
@@ -105,7 +104,7 @@ export default function AboutPage() {
               >
                 <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 px-4 py-2 rounded-full text-sm font-medium mb-4">
                   <Sparkles className="h-4 w-4" />
-                  The Future of Streetwear is Here
+                    The Future of clothing is Here
                 </div>
               </motion.div>
 
