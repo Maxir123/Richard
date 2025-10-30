@@ -16,56 +16,16 @@ type Store = {
 };
 
 const STORES: Store[] = [
-  {
-    id: "lagos-ikeja",
-    name: "Richview Flagship — Ikeja",
-    address: "12 Allen Ave, Ikeja, Lagos",
-    city: "Lagos",
-    phone: "+234 800 000 1001",
-    lat: 6.6018,
-    lng: 3.3515,
-    hours: "Mon–Sat 9:00–19:00",
-  },
-  {
-    id: "lagos-vi",
-    name: "Richview Store — Victoria Island",
-    address: "Shop 4, Victoria Island, Lagos",
-    city: "Lagos",
-    phone: "+234 800 000 1002",
-    lat: 6.4383,
-    lng: 3.4483,
-    hours: "Mon–Sun 10:00–20:00",
-  },
-  {
-    id: "abuja-central",
-    name: "Richview — Abuja Central",
-    address: "Plot 45, Wuse, Abuja",
-    city: "Abuja",
-    phone: "+234 800 000 2001",
-    lat: 9.0765,
-    lng: 7.3986,
-    hours: "Mon–Sat 9:00–18:00",
-  },
-  {
-    id: "ph-port",
-    name: "Richview — Port Harcourt",
-    address: "Rivers Ave, Port Harcourt",
-    city: "Port Harcourt",
-    phone: "+234 800 000 3001",
-    lat: 4.8156,
-    lng: 7.0498,
-    hours: "Mon–Sat 9:30–18:00",
-  },
-  {
-    id: "kano-mall",
-    name: "Richview — Kano Mall",
-    address: "Mall Road, Kano",
-    city: "Kano",
-    phone: "+234 800 000 4001",
-    lat: 11.9964,
-    lng: 8.5167,
-    hours: "Tue–Sun 10:00–19:00",
-  },
+{
+  id: "Abuja-Apo",
+  name: "RichView Apo Resettlement",
+  address: "Vinjosco International House, Apo Resettlement Area, Abuja 900110",
+  city: "Abuja",
+  phone: "+234 816 448 4383",
+  lat: 8.9841,
+  lng: 7.4995,
+  hours: "Mon–Sat 9:00–19:00"
+}
 ];
 
 function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
