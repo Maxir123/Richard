@@ -305,7 +305,7 @@ function ProductHighlightCard({ isHovered, product, loading, formatPrice, onBuyW
 
   const productImage = product.images?.[0] || product.image || '/fallback-product.jpg';
   const productTag = product.metadata?.tag || 'Featured';
-  const availableSizes = product.metadata?.sizes || ['One Size'];
+  const availableSizes = product.metadata?.sizes || ['S, M, L, XL'];
   const availableColors = product.metadata?.colors || [];
 
   return (
