@@ -203,7 +203,9 @@ export default function HeroProductsSection() {
 
           console.log(`🎯 Final mapped products:`, mapped);
           // ONLY TAKE FIRST 3 PRODUCTS
-          setProducts(mapped.slice(0, 3));
+         mapped.sort((a, b) => a.metadata?.position - b.metadata?.position)
+        setProducts(mapped.slice(0, 3))
+
         }
       } catch (err: any) {
         if (err.name === "AbortError") return;
