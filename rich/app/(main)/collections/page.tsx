@@ -102,7 +102,6 @@ function extractImageFromProduct(product: unknown, metadata: unknown): string | 
     console.error("Error extracting image:", err);
     return null;
   }
-
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -199,7 +198,7 @@ export default function FashionCollection() {
           const shuffledProducts = shuffleArray(mapped);
           setProducts(shuffledProducts);
         }
-           } catch (errUnknown) {
+      } catch (errUnknown) {
         // handle AbortError safely without `any`
         const maybeErr = errUnknown as unknown;
         if (maybeErr && typeof maybeErr === "object" && (maybeErr as { name?: unknown }).name === "AbortError") {
@@ -211,8 +210,7 @@ export default function FashionCollection() {
           if (errUnknown instanceof Error) setError(errUnknown.message);
           else setError(String(errUnknown ?? "Unknown error"));
         }
-      }
-       finally {
+      } finally {
         if (mounted) setLoading(false);
       }
     }
@@ -280,17 +278,17 @@ export default function FashionCollection() {
   const categories = ["all", ...Array.from(new Set(products.map((p) => p.category).filter(Boolean)))] as string[];
 
   const fashionStats = [
- { icon: Shirt, label: "Premium Brands", value: "2+" },
+    { icon: Shirt, label: "Premium Brands", value: "2+" },
     { icon: TrendingUp, label: "Happy Customers", value: "20+" },
     { icon: Zap, label: "Fast Delivery", value: "24h" },
   ];
 
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-12 lg:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 py-12 lg:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Enhanced Background */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 left-10 w-72 h-72 bg-pink-500 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute top-1/3 right-20 w-96 h-96 bg-purple-500 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "2s" }} />
+        <div className="absolute top-10 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute top-1/3 right-20 w-96 h-96 bg-blue-500 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "2s" }} />
         <div className="absolute bottom-20 left-1/3 w-80 h-80 bg-blue-500 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "4s" }} />
       </div>
 
@@ -316,7 +314,7 @@ export default function FashionCollection() {
 
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3 }} className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-6 leading-tight">
             Style That{" "}
-            <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">Speaks</span>
+            <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent animate-gradient">Speaks</span>
           </motion.h1>
 
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.4 }} className="text-xl lg:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
@@ -326,7 +324,7 @@ export default function FashionCollection() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5 }} className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
             {fashionStats.map((stat, index) => (
               <motion.div key={stat.label} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }} className="text-center p-4 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
-                <stat.icon className="w-8 h-8 text-pink-400 mx-auto mb-2" />
+                <stat.icon className="w-8 h-8 text-blue-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-white">{stat.value}</div>
                 <div className="text-sm text-gray-400">{stat.label}</div>
               </motion.div>
@@ -343,7 +341,7 @@ export default function FashionCollection() {
               placeholder="Search fashion items..."
               value={searchQuery}
               onChange={(ev) => setSearchQuery(ev.currentTarget.value)}
-              className="w-full bg-white/10 border border-white/20 rounded-xl pl-12 pr-4 py-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all duration-300"
+              className="w-full bg-white/10 border border-white/20 rounded-xl pl-12 pr-4 py-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
               suppressHydrationWarning
             />
           </div>
@@ -353,7 +351,7 @@ export default function FashionCollection() {
             <select
               value={selectedCategory}
               onChange={(ev) => setSelectedCategory(ev.currentTarget.value)}
-              className="bg-white/10 border border-white/20 rounded-xl pl-12 pr-8 py-4 text-white focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent appearance-none transition-all duration-300 w-full sm:w-48"
+              className="bg-white/10 border border-white/20 rounded-xl pl-12 pr-8 py-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none transition-all duration-300 w-full sm:w-48"
               suppressHydrationWarning
             >
               {categories.map((category) => (
@@ -386,14 +384,14 @@ export default function FashionCollection() {
         ) : error ? (
           <div className="text-center py-20">
             <div className="text-red-400 text-xl mb-4">❌ {error}</div>
-            <button onClick={() => window.location.reload()} className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-4 rounded-2xl font-semibold hover:shadow-2xl hover:shadow-pink-500/25 transition-all duration-300">
+            <button onClick={() => window.location.reload()} className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-4 rounded-2xl font-semibold hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300">
               Try Again
             </button>
           </div>
         ) : displayProducts.length === 0 ? (
           <div className="text-center py-20">
             <div className="text-gray-400 text-xl mb-4">No fashion items found</div>
-            <button onClick={() => { setSearchQuery(""); setSelectedCategory("all"); }} className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-4 rounded-2xl font-semibold hover:shadow-2xl hover:shadow-pink-500/25 transition-all duration-300">
+            <button onClick={() => { setSearchQuery(""); setSelectedCategory("all"); }} className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-4 rounded-2xl font-semibold hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300">
               Clear Filters
             </button>
           </div>
@@ -454,8 +452,8 @@ function FashionProductCard({ product, onBuyWithPaystack, index }: FashionProduc
   const badgeColors: { [key: string]: string } = {
     "New Arrival": "from-green-500 to-emerald-500",
     "Bestseller": "from-orange-500 to-red-500",
-    "Limited Edition": "from-purple-500 to-pink-500",
-    "Trending": "from-blue-500 to-cyan-500",
+    "Limited Edition": "from-blue-500 to-indigo-500",
+    "Trending": "from-cyan-500 to-blue-500",
     "Sale": "from-red-500 to-pink-500",
   };
 
@@ -477,7 +475,7 @@ function FashionProductCard({ product, onBuyWithPaystack, index }: FashionProduc
       }}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
-      className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-2xl hover:shadow-pink-500/20 transition-all duration-500"
+      className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-2xl hover:shadow-blue-500/20 transition-all duration-500"
     >
       {/* Image Container */}
       <div className="relative aspect-square overflow-hidden bg-slate-800">
@@ -528,7 +526,7 @@ function FashionProductCard({ product, onBuyWithPaystack, index }: FashionProduc
         </div>
 
         <div className="flex flex-col xs:flex-row xs:items-center justify-between gap-3 mt-4">
-          <div className="text-xl sm:text-2xl font-bold text-white bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent text-center xs:text-left">{formatNairaFromSubunit(product.price)}</div>
+          <div className="text-xl sm:text-2xl font-bold text-white bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent text-center xs:text-left">{formatNairaFromSubunit(product.price)}</div>
 
           <div className="flex flex-col xs:flex-row gap-2 w-full xs:w-auto">
             <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={onBuyWithPaystack} className="bg-gradient-to-r from-green-500 to-emerald-500 text-white hover:shadow-xl hover:shadow-green-500/25 px-4 py-3 text-sm font-semibold transition-all duration-300 rounded-xl flex items-center justify-center gap-2 order-2 xs:order-1">
@@ -538,7 +536,7 @@ function FashionProductCard({ product, onBuyWithPaystack, index }: FashionProduc
           </div>
         </div>
 
-        <div className="w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-pink-500 to-purple-500 transition-all duration-500 mt-4" />
+        <div className="w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 transition-all duration-500 mt-4" />
       </div>
     </motion.div>
   );
