@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
   return (
     <header className="sticky top-0 z-50">
       <div
-        className={`bg-gradient-to-r from-blue-900/95 to-purple-900/95 backdrop-blur-lg border-b border-blue-400/30 transition-all duration-300 ${
+        className={`bg-gradient-to-r from-blue-900/95 to-black/95 backdrop-blur-lg border-b border-blue-400/30 transition-all duration-300 ${
           isScrolled ? "shadow-2xl backdrop-blur-xl" : ""
         }`}
       >
