@@ -9,15 +9,14 @@ export const metadata = {
 export default function LookbookPage() {
   // pass full public URLs (relative to /public)
   const images = [
-    'Post1.jpg',
-    'Post2.jpg',
-    'Post3.jpg',
-    'Post4.jpg',
-    'Post5.jpg',
-    'Post6.jpg',
-    'Post7.jpg',
-    'Post8.jpg',
-    'Post9.jpg',
+    'Post1.jpeg',
+    'Post2.jpeg',
+    'Post3.jpeg',
+    'Post4.jpeg',
+    'Post5.jpeg',
+    'Post6.jpeg',
+    'Post7.jpeg',
+    'Post8.jpeg',
   ];
 
   return <RichviewLookbook images={images} />;
